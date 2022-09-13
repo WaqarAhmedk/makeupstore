@@ -1,0 +1,95 @@
+.categories-page-main-div {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid gray;
+    border-top: none;
+
+}
+
+.admin-categories-header-div {
+
+    background-color: blue;
+    border-bottom: 1px solid gray;
+    padding-right: 40px;
+
+
+}
+
+.add-new-category-icon {
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.add-new-category-icon:hover {
+    color: green;
+
+}
+
+.admin-categories-main-div {
+
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+
+.admin-categories-content-div {
+
+   
+    margin-top: 10px;
+   
+  
+
+}
+
+.admin-categories-content-div:hover {
+    /* filter: blur(1px); */
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px 0px black;
+
+
+}
+
+.admin-categories-content-div:hover .admin-categories-title>h3 {
+    color: antiquewhite;
+
+
+}
+
+.admin-categories-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.admin-categories-title>h3 {
+    color: rgba(34, 31, 31, 0.801);
+    font-size: x-large;
+    font-weight: 400;
+
+}
+.categories-content-main-div{
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.icon:hover {
+    cursor: pointer;
+    font-size: xx-large;
+    box-shadow: 0px 10px 20px 4px rgb(255, 255, 255);
+
+}

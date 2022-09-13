@@ -1,0 +1,8 @@
+.small-navbar{
+    background-color: #F1F1F1;
+    padding: 0%;
+}
+
+.small-navbar >div{
+    padding-left: 10%;
+}

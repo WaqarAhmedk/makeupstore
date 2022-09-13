@@ -1,0 +1,55 @@
+.form{
+    margin: 20px 350px 0px 400px;
+    text-align: center;
+    background-color: white;
+    padding: 30px 100px 10px 100px;
+    color: gray;
+   
+}
+
+
+
+.form>h2{
+    color: black;
+    font-weight: 400;
+}
+.form-div{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.form-div >input{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+}
+.form-help{
+    margin: 0px 350px 30px 400px;
+    text-align: center;
+    background-color: white;
+    padding: 0px 100px 50px 100px;
+    color: gray;
+}
+
+.form-help >span{
+    cursor: pointer;
+    
+}
+.form-help >span:hover{
+    cursor: pointer;
+    color: blue;
+    
+}
+.auth-msg{
+    text-align: center;
+    margin-left: 600px;
+  
+
+ 
+}
+
+.error-emoji{
+    font-size: 30px;
+}

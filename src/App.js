@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import Adminhomepage from './admin/adminhomepage';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
+import Cart from './costumer/pages/cart';
+import Homepage from './costumer/pages/homepage';
+import Products from './costumer/pages/products';
+import Login from './costumer/login';
+import AuthCoustmer from './costumer/auth';
+import Allproducts from './costumer/pages/allproducts';
+import AdminLogin from './admin/adminlogin';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Homepage />} />
+          <Route exact path='/autnticate' element={<AuthCoustmer />} />
+          <Route exact path='/cart' element={<Cart />} />
+          <Route exact path='/category-products' element={<Products />} />
+          <Route exact path='/all-products' element={<Allproducts />} />
+
+
+
+          <Route exact path='/admin' element={<Adminhomepage />} />
+          <Route exact path='/admin/login' element={<AdminLogin />} />
+
+
+        </Routes>
+
+
+      </BrowserRouter>
+    </>
   );
 }
 

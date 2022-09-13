@@ -1,0 +1,38 @@
+.footer-main-div{
+    display: flex;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.footer-inner-div{
+    width: 400px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.footer-nav-item{
+    margin-top: 10px;
+    color: gray;
+    
+}
+.propt{
+    margin-top: 50px;
+    color: gray;
+}
+.footer-logo{
+    display: block;
+}
+.footer-title{
+   font-weight: 400;
+}
+
+.footer-p{
+    color: gray;
+}
+.footer-readmore{
+    color: black;
+    cursor: pointer;
+}
+
+.footer-readmore:hover{
+    color: aqua;
+}
