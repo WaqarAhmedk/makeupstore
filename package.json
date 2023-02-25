@@ -1,7 +1,7 @@
 {
   "name": "makeupstore",
   "version": "0.1.0",
-  "proxy": "http://localhost:4000/",
+  "proxy": "https://worrisome-woolens-cod.cyclic.app/",
   "secure": false,
   "private": true,
   "dependencies": {
